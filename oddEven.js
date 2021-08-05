@@ -16,19 +16,13 @@
 // const herNumber = 1892;
 // const isHerNumberEven = isEven(herNumber);
 
-// //Is Odd number
-// function isOdd(number) {
-//     if (number % 2 != 0) {
-//         return true;
-//     }
-//     return false;
-// }
-// const dadNumber = 1243;
-// const isDadNumberOdd = isOdd(dadNumber);
-// console.log('Is dadNumber Odd? : ', isDadNumberOdd);
-
-
-
-for (let i = 10; i >= 1; i--) {
-    console.log(i);
+//Is Odd number
+function isOdd(number) {
+    if (number % 2 != 0) {
+        return true;
+    }
+    return false;
 }
+const dadNumber = 1243;
+const isDadNumberOdd = isOdd(dadNumber);
+console.log('Is dadNumber Odd? : ', isDadNumberOdd);
